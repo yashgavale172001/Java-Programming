@@ -1,0 +1,21 @@
+class Typecasting_float 
+{
+	public static void main(String[] args) 
+	{
+		float f= 200.33f;
+
+		//short s=l; //incompatible types: possible lossy conversion from int to short
+		//int a=f;  // incompatible types: possible lossy conversion from int to short
+		//long l=f;
+		double d=f;
+		//byte b=l; //incompatible types: possible lossy conversion from int to short
+		//char c=l; //incompatible types: possible lossy conversion from int to short
+
+		//System.out.println(s);
+		//System.out.println(c);
+		//System.out.println(a);
+		//System.out.println(l);
+		System.out.println(d);
+		//System.out.println(b);
+	}
+}
