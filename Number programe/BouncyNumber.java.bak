@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class  BouncyNumber
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num=sc.nextInt();
+		checkBouncy(num);
+	}
+	public static void checkBouncy(int num)
+	{
+		int ct=count(num);
+		int sum=0;
+		int a=0;
+		for(int i=1;i<=count;i++)
+		{
+			int rem=num%10;
+			if(rem<a)
+			{
+				a=rem;
+			}
+		}
+	}
+	public static int count(int num)
+	{
+		int s=0;
+		while(num!=0)
+		{
+			s++;
+			num/=10;
+		}
+		return s;
+	}
+}
