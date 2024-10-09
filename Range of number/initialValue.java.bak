@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class  initialValue
+{
+	    static short s;
+		System.out.println(s);
+
+		static byte b;
+		System.out.println(b);
+
+		static char c;
+		System.out.println(c);
+
+		static String st;
+		System.out.println(st);
+
+		static float f;
+		System.out.println(f);
+
+		static double d;
+		System.out.println(d);
+
+		static long l;
+		System.out.println(l);
+	public static void main(String[] args) 
+	{
+		
+		System.out.println(a);
+
+        
+	}
+}
