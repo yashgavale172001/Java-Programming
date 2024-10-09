@@ -1,0 +1,9 @@
+class penDriver 
+{
+	public static void main(String[] args) 
+	{
+		pen p=new pen();
+		pen p1=new pen("ballpen","blue",2);
+		pen p2=new pen("ballpen","blue",2,"papersoft");
+	}
+}

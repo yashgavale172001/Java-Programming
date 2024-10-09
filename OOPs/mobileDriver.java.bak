@@ -1,0 +1,8 @@
+class  mobileDriver
+{
+	public static void main(String[] args) 
+	{
+		mobile m=new mobile();
+		m.display();
+	}
+}

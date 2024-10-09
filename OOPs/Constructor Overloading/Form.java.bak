@@ -1,0 +1,12 @@
+class Form 
+{
+	public static void main(String[] args) 
+	{
+		FormDriver yash=new FormDriver();
+        
+		FormDriver manya=new FormDriver("manya",22,89,"manya@gmail.com","BE",77.8,"8380993133");
+        FormDriver yash0=new FormDriver("yash",22,89,"yashya@gmail.com","BE",77.8,"7276590778","A+");
+		FormDriver yash1=new FormDriver("yash",22,89,"yashya@gmail.com","BE",77.8,"7276590778","A+",5.2);
+		FormDriver yash2=new FormDriver("yash",22,89,"yashya@gmail.com","BE",77.8,"7276590778","A+",5.2,58.34);
+	}
+}
